@@ -18,5 +18,10 @@ fn main() {
 
     my_hash_map.remove("key1");
 
-    println!("Hello, hashmaps!");
+    if my_hash_map.contains_key("key1") {
+        println!("Key exists");
+    } else {
+        println!("Key does not exist");
+    }
+
 }
