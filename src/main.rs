@@ -16,5 +16,7 @@ fn main() {
         println!("Key: {}, Value: {}", key, value);
     }
 
+    my_hash_map.remove("key1");
+
     println!("Hello, hashmaps!");
 }
