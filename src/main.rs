@@ -6,5 +6,15 @@ fn main() {
     my_hash_map.insert(String::from("key1"), 42);
     my_hash_map.insert(String::from("key2"), 87);
 
+    if let Some(value) = my_hash_map.get("key1") {
+        println!("Value: {}", value);
+    } else {
+        println!("Key not found");
+    }
+
+    for (key, value) in &my_hash_map {
+        println!("Key: {}, Value: {}", key, value);
+    }
+
     println!("Hello, hashmaps!");
 }
