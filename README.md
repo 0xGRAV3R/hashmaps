@@ -9,7 +9,9 @@ use std::collections::HashMap;
 2) Creating a new HashMap:
 let mut my_hash_map: HashMap<String, i32> = HashMap::new();
 
-
+3) Inserting and Updating Values
+my_hash_map.insert(String::from("key1"), 42); 
+my_hash_map.insert(String::from("key2"), 87);
 
 You can reasd the tutorial here:
 https://oceansthreads.substack.com/p/hashmaps-in-rust
