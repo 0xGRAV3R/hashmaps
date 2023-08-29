@@ -6,7 +6,9 @@ Examples:
 1) Bring hashmap type into scope from the std lib:
 use std::collections::HashMap;
 
-2) 
+2) Creating a new HashMap:
+let mut my_hash_map: HashMap<String, i32> = HashMap::new();
+
 
 
 You can reasd the tutorial here:
