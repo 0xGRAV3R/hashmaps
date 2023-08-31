@@ -20,5 +20,5 @@ if let Some(value) = my_hash_map.get("key1") {
     println!("Key not found");
 }
 
-You can reasd the tutorial here:
+You can read the tutorial here:
 https://oceansthreads.substack.com/p/hashmaps-in-rust
